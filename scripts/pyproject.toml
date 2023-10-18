@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "aisentences"
+version = "0.1.0"
+description = ""
+authors = ["KOSEKI Kengo <koseki@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.scripts]
+settags = "aisentences.id3v2:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
